@@ -41,7 +41,7 @@ const mediaItems = [
 
 const resolvers = {
   Query: {
-    MediaList: () => mediaItems,
+    MediaItem: () => mediaItems,
   },
 };
 
