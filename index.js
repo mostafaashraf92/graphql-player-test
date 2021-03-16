@@ -14,10 +14,6 @@ const typeDefs = gql`
     url: String
   }
 
-  type MediaItems{
-    mediaItems: [MediaItem]
-  }
-
   # The "Query" type is special: it lists all of the available queries that
   # clients can execute, along with the return type for each. In this
   # case, the "books" query returns an array of zero or more Books (defined above).
@@ -45,7 +41,7 @@ const mediaItems = [
 
 const resolvers = {
   Query: {
-    MediaItems: () => mediaItems,
+    MediaList: () => mediaItems,
   },
 };
 
