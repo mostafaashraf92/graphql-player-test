@@ -88,88 +88,88 @@ const mediaItems = [
     ],
     streams: [
       {
-         "format":"hls",
-         "container":"cmaf",
-         "fps":59.97,
-         "drm":"cbcs",
-         "segmentDuration":2,
-         "videoInfo":[
+         format:'hls',
+         container:'cmaf',
+         fps:59.97,
+         drm:'cbcs',
+         segmentDuration:2,
+         videoInfo:[
             {
-               "id":1,
-               "codec":"h265",
-               "bitrate":400000,
-               "width":1920,
-               "height":1080,
-               "bitDepth":8
+               id:1,
+               codec:'h265',
+               bitrate:400000,
+               width:1920,
+               height:1080,
+               bitDepth:8
             }
          ],
-         "audioInfo":[
+         audioInfo:[
             {
-               "id":2,
-               "codec":"aac",
-               "language":"en",
-               "bitRate":4000,
-               "channels":6
+               id:2,
+               codec:'aac',
+               language:'en',
+               bitRate:4000,
+               channels:6
             }
          ],
-         "textInfo":[
+         textInfo:[
             {
-               "id":"CC1",
-               "type":"cea-608",
-               "language":"en"
+               id:'CC1',
+               type:'cea-608',
+               language:'en'
             }
          ],
-         "sources":[
+         sources:[
             {
-               "cdn":"Akamai",
-               "url":"https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+               cdn:'Akamai',
+               url:'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8'
             },
             {
-               "cdn":"Fastly",
-               "url":"https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+               cdn:'Fastly',
+               url:'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8'
             }
          ]
       },
       {
-         "format":"dash",
-         "container":"cmaf",
-         "fps":29.97,
-         "drm":"clear",
-         "segmentDuration":2,
-         "videoInfo":[
+         format:'dash',
+         container:'cmaf',
+         fps:29.97,
+         drm:'clear',
+         segmentDuration:2,
+         videoInfo:[
             {
-               "id":1,
-               "codec":"h264",
-               "bitrate":300000,
-               "width":1280,
-               "height":720,
-               "bitDepth":8
+               id:1,
+               codec:'h264',
+               bitrate:300000,
+               width:1280,
+               height:720,
+               bitDepth:8
             }
          ],
-         "audioInfo":[
+         audioInfo:[
             {
-               "id":2,
-               "codec":"aac",
-               "language":"en",
-               "bitRate":4000,
-               "channels":2
+               id:2,
+               codec:'aac',
+               language:'en',
+               bitRate:4000,
+               channels:2
             }
          ],
-         "textInfo":[
+         textInfo:[
             {
-               "id":"CC1",
-               "type":"cea-608",
-               "language":"en"
+               id:'CC1',
+               type:'cea-608',
+               language:'en'
             }
          ],
-         "sources":[
+         sources:[
             {
-               "cdn":"Akamai",
-               "url":"https: //some.akamai.com/blah.mpd"
+               cdn:'Akamai',
+               url:'https: //some.akamai.com/blah.mpd'
             },
             {
-               "cdn":"Fastly",
-               "url":"https: //some.fastly.com/blah.mpd"
+               cdn:'Fastly',
+               url:'https: //some.fastly.com/blah.mpd'
             }
          ]
       }
@@ -192,88 +192,88 @@ const mediaItems = [
     ],
     streams: [
       {
-         "format":"hls",
-         "container":"cmaf",
-         "fps":59.97,
-         "drm":"cbcs",
-         "segmentDuration":2,
-         "videoInfo":[
+         format:'hls',
+         container:'cmaf',
+         fps:59.97,
+         drm:'cbcs',
+         segmentDuration:2,
+         videoInfo:[
             {
-               "id":1,
-               "codec":"h265",
-               "bitrate":400000,
-               "width":1920,
-               "height":1080,
-               "bitDepth":8
+               id:1,
+               codec:'h265',
+               bitrate:400000,
+               width:1920,
+               height:1080,
+               bitDepth:8
             }
          ],
-         "audioInfo":[
+         audioInfo:[
             {
-               "id":2,
-               "codec":"aac",
-               "language":"en",
-               "bitRate":4000,
-               "channels":6
+               id:2,
+               codec:'aac',
+               language:'en',
+               bitRate:4000,
+               channels:6
             }
          ],
-         "textInfo":[
+         textInfo:[
             {
-               "id":"CC1",
-               "type":"cea-608",
-               "language":"en"
+               id:'CC1',
+               type:'cea-608',
+               language:'en'
             }
          ],
-         "sources":[
+         sources:[
             {
-               "cdn":"Akamai",
-               "url":"https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
+               cdn:'Akamai',
+               url:'https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8'
             },
             {
-               "cdn":"Fastly",
-               "url":"https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
+               cdn:'Fastly',
+               url:'https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8'
             }
          ]
       },
       {
-         "format":"dash",
-         "container":"cmaf",
-         "fps":29.97,
-         "drm":"clear",
-         "segmentDuration":2,
-         "videoInfo":[
+         format:'dash',
+         container:'cmaf',
+         fps:29.97,
+         drm:'clear',
+         segmentDuration:2,
+         videoInfo:[
             {
-               "id":1,
-               "codec":"h264",
-               "bitrate":300000,
-               "width":1280,
-               "height":720,
-               "bitDepth":8
+               id:1,
+               codec:'h264',
+               bitrate:300000,
+               width:1280,
+               height:720,
+               bitDepth:8
             }
          ],
-         "audioInfo":[
+         audioInfo:[
             {
-               "id":2,
-               "codec":"aac",
-               "language":"en",
-               "bitRate":4000,
-               "channels":2
+               id:2,
+               codec:'aac',
+               language:'en',
+               bitRate:4000,
+               channels:2
             }
          ],
-         "textInfo":[
+         textInfo:[
             {
-               "id":"CC1",
-               "type":"cea-608",
-               "language":"en"
+               id:'CC1',
+               type:'cea-608',
+               language:'en'
             }
          ],
-         "sources":[
+         sources:[
             {
-               "cdn":"Akamai",
-               "url":"https: //some.akamai.com/blah.mpd"
+               cdn:'Akamai',
+               url:'https: //some.akamai.com/blah.mpd'
             },
             {
-               "cdn":"Fastly",
-               "url":"https: //some.fastly.com/blah.mpd"
+               cdn:'Fastly',
+               url:'https: //some.fastly.com/blah.mpd'
             }
          ]
       }
@@ -295,48 +295,48 @@ const mediaItems = [
     ],
     streams: [
       {
-         "format":"dash",
-         "container":"cmaf",
-         "fps":59.97,
-         "drm":"cbcs",
-         "segmentDuration":2,
-         "videoInfo":[
+         format:'dash',
+         container:'cmaf',
+         fps:59.97,
+         drm:'cbcs',
+         segmentDuration:2,
+         videoInfo:[
             {
-               "id":1,
-               "codec":"h265",
-               "bitrate":400000,
-               "width":1920,
-               "height":1080,
-               "bitDepth":8
+               id:1,
+               codec:'h265',
+               bitrate:400000,
+               width:1920,
+               height:1080,
+               bitDepth:8
             }
          ],
-         "audioInfo":[
+         audioInfo:[
             {
-               "id":2,
-               "codec":"aac",
-               "language":"en",
-               "bitRate":4000,
-               "channels":6
+               id:2,
+               codec:'aac',
+               language:'en',
+               bitRate:4000,
+               channels:6
             }
          ],
-         "textInfo":[
+         textInfo:[
             {
-               "id":"CC1",
-               "type":"cea-608",
-               "language":"en"
+               id:'CC1',
+               type:'cea-608',
+               language:'en'
             }
          ],
-         "sources":[
+         sources:[
             {
-               "cdn":"Akamai",
-               "url":"https://storage.googleapis.com/shaka-live-assets/player-source.mpd"
+               cdn:'Akamai',
+               url:'https://storage.googleapis.com/shaka-live-assets/player-source.mpd'
             },
             {
-               "cdn":"Fastly",
-               "url":"https://storage.googleapis.com/shaka-live-assets/player-source.mpd"
+               cdn:'Fastly',
+               url:'https://storage.googleapis.com/shaka-live-assets/player-source.mpd'
             }
          ]
-      }    
+      }
    ]
   },
 ];
