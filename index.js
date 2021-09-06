@@ -79,7 +79,7 @@ const mediaItems = [
     duration: 630,
     images: [
       {
-        url: 'http://placehold.it/1280x720?text=Sintel',
+        url: 'http://placehold.it/640x360?text=Sintel',
         type: 'poster',
         description: 'A video',
         width: 1280,
@@ -183,7 +183,7 @@ const mediaItems = [
     duration: 630,
     images: [
       {
-        url: 'http://placehold.it/1280x720?text=Big Buck Bunny',
+        url: 'http://placehold.it/640x360?text=Big Buck Bunny',
         type: 'poster',
         description: 'A video',
         width: 1280,
@@ -286,7 +286,7 @@ const mediaItems = [
     duration: 630,
     images: [
       {
-        url: 'http://placehold.it/1280x720?text=Bip Bop',
+        url: 'http://placehold.it/640x360?text=Bip_Bop',
         type: 'poster',
         description: 'A video',
         width: 1280,
