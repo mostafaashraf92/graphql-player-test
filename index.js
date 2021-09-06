@@ -82,8 +82,8 @@ const mediaItems = [
         url: 'http://placehold.it/1280x720?text=Sintel',
         type: 'poster',
         description: 'A video',
-        width: '1280',
-        height: '720'
+        width: 1280,
+        height: 720
       }
     ],
     streams: [
@@ -186,8 +186,8 @@ const mediaItems = [
         url: 'http://placehold.it/1280x720?text=Big Buck Bunny',
         type: 'poster',
         description: 'A video',
-        width: '1280',
-        height: '720'
+        width: 1280,
+        height: 720
       }
     ],
     streams: [
@@ -289,8 +289,8 @@ const mediaItems = [
         url: 'http://placehold.it/1280x720?text=Bip Bop',
         type: 'poster',
         description: 'A video',
-        width: '1280',
-        height: '720'
+        width: 1280,
+        height: 720
       }
     ],
     streams: [
