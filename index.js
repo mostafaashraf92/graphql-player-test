@@ -329,11 +329,11 @@ const mediaItems = [
          sources:[
             {
                cdn:'Akamai',
-               url:'https://storage.googleapis.com/shaka-live-assets/player-source.mpd'
+               url:'https://live.unified-streaming.com/scte35/scte35.isml/.mpd'
             },
             {
                cdn:'Fastly',
-               url:'https://storage.googleapis.com/shaka-live-assets/player-source.mpd'
+               url:'https://live.unified-streaming.com/scte35/scte35.isml/.mpd'
             }
          ]
       }
